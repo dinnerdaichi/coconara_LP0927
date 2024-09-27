@@ -12087,14 +12087,30 @@ footer.LP-footer {
   line-height: 120%
 }
 
-.standing-test {
-  font-size: 20px;
-  font-weight: bold;
+.standing-test  {
+
   text-align: center;
   padding-top: 40px;
   margin: 0 !important;
+}
+
+@media screen and (max-width: 750px) {
+  .standing-test {
+
+      padding-top: 20px;
+    }
+}
 
 
+.standing-test p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+  .standing-test p {
+      font-size: 16px!important;
+    }
 }
 
 .standing-test span {
